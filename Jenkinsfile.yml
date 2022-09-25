@@ -1,5 +1,5 @@
 // This job will be restricted to run only on 'ubuntu18.04-OnDemand' Build machine
-node('ubuntu18.04-OnDemand'){
+node('any'){
     withEnv([
         'REPO_PRI=https://github.com/secure-device-onboard/pri',
         'REPO_SCT=https://github.com/secure-device-onboard/supply-chain-tools',
